@@ -338,3 +338,6 @@ Place NotificationService inside your core/services/ or core/notifications/ fold
 
 ### Snapshots
 
+![Snapshot1](https://github.com/user-attachments/assets/543e73c9-8e41-4fce-b7e1-9d5bd5d79556)
+![Snapshot2](https://github.com/user-attachments/assets/602ad593-ab36-4531-b373-4a15a3f25737)
+
