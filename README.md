@@ -9,7 +9,7 @@ A singleton service class for scheduling and displaying local notifications in F
 ## ✨ Features
 
 - 📱 Foreground notifications
-- ⏰ Scheduled daily notifications
+- ⏰ Scheduled hoyrly/daily/weekly notifications
 - 🔁 Periodic notifications
 - ⏳ Custom interval-based repeating notifications
 - 🔕 Cancel individual or all notifications
@@ -191,12 +191,12 @@ class NotificationService {
         id,
         title,
         body,
-        RepeatInterval.hourly,
+        RepeatInterval.hourly, // set here daily or weekly
         _notificationDetails(),
         androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
       );
 
-      print('Notification scheduled successfully');
+      print('Notification set successfully');
     } catch (e) {
       print('Error scheduling notification: $e');
     }
@@ -218,7 +218,7 @@ class NotificationService {
         androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
       );
 
-      print('Notification scheduled successfully');
+      print('Notification set successfully');
     } catch (e) {
       print('Error scheduling notification: $e');
     }
