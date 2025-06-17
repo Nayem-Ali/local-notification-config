@@ -338,7 +338,7 @@ Place NotificationService inside your core/services/ or core/notifications/ fold
 
 ### Snapshots
 
-<img src="https://github.com/user-attachments/assets/543e73c9-8e41-4fce-b7e1-9d5bd5d79556" width="180" height="220" style="margin-right: 10px;"/>
-<img src="https://github.com/user-attachments/assets/602ad593-ab36-4531-b373-4a15a3f25737" width="180" height="220"/>
+<img src="https://github.com/user-attachments/assets/543e73c9-8e41-4fce-b7e1-9d5bd5d79556" width="180" height="290" style="margin-right: 10px;"/>
+<img src="https://github.com/user-attachments/assets/602ad593-ab36-4531-b373-4a15a3f25737" width="180" height="290"/>
 
 
