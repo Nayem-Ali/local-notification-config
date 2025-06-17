@@ -28,7 +28,6 @@ dependencies:
   flutter_local_notifications: ^16.3.2
   timezone: ^0.9.2
   permission_handler: ^11.3.1
-  intl: ^0.19.0
 ```
 
 ### 📜 Permissions
