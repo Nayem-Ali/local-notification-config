@@ -198,7 +198,7 @@ class NotificationService {
 
       print('Notification set successfully');
     } catch (e) {
-      print('Error scheduling notification: $e');
+      print('Error setting periodic notification: $e');
     }
   }
 
@@ -220,7 +220,7 @@ class NotificationService {
 
       print('Notification set successfully');
     } catch (e) {
-      print('Error scheduling notification: $e');
+      print('Error setting custom periodic notification: $e');
     }
   }
 
