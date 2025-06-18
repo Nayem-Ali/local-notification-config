@@ -9,7 +9,7 @@ A singleton service class for scheduling and displaying local notifications in F
 ## ✨ Features
 
 - 📱 Foreground notifications
-- ⏰ Scheduled hourly/daily/weekly notifications
+- ⏰ Scheduled daily notifications
 - 🔁 Periodic notifications
 - ⏳ Custom interval-based repeating notifications
 - 🔕 Cancel individual or all notifications
