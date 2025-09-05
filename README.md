@@ -70,7 +70,7 @@ In your iOS project, open ios/Runner/Info.plist and add:
 ```
 
 #### Add this Groovy DSL / Kotlin DSL code snippet bottom of the `app/build.gradle` file
- - Groovy DSL
+ - Groovy DSL for app/build.gradle
 ```
 dependencies {
     // For AGP 7.4+
@@ -82,7 +82,7 @@ dependencies {
     // coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.9'
 }
 ```
- - Kotlin DSL
+ - Kotlin DSL for app/build.gradle.kts
 ```
 dependencies {
 // For AGP 7.4+
