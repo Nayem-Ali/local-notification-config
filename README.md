@@ -69,6 +69,30 @@ In your iOS project, open ios/Runner/Info.plist and add:
     <string>We use notifications to remind you about important events.</string>
 ```
 
+#### Add this Groovy DSL / Kotlin DSL code snippet bottom of the `app/build.gradle` file
+ - Groovy DSL
+```
+dependencies {
+    // For AGP 7.4+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
+
+    // For AGP 7.3
+    // coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.2.3'
+    // For AGP 4.0 to 7.2
+    // coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.9'
+}
+```
+ - Kotlin DSL
+```
+dependencies {
+// For AGP 7.4+
+coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+// For AGP 7.3
+// coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.2.3'
+// For AGP 4.0 to 7.2
+// coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.9' }
+```
+
 ### 📜 Create a file with name local_notifcaition_service.dart or whatever you want and paste this code
 
 ```
